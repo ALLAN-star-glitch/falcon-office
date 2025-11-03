@@ -95,10 +95,6 @@ export default function Footer() {
       {/* Footer Bottom */}
       <div className="border-t border-[#E5E9F2] mt-12 pt-6 text-center text-sm text-[#64748B] relative z-10">
         © {new Date().getFullYear()} OrgOffice. All rights reserved.  
-        <br />
-        <span className="text-[#1E293B]">
-          Built with ❤️ using NestJS & Next.js
-        </span>
       </div>
 
       {/* Soft Animated Gradient Accent */}

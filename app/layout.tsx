@@ -29,16 +29,16 @@ export const metadata: Metadata = {
     "Pivota platform",
   ],
   authors: [{ name: "Pivota Team" }],
-  metadataBase: new URL("https://www.pivota.co.ke"),
+  metadataBase: new URL("https://org-office.vercel.app/"),
   openGraph: {
     title: "Pivota — Manage Your Organization Smarter",
     description:
       "All-in-one platform for managing your organization — streamline operations, communication, and growth effortlessly.",
-    url: "https://www.pivota.co.ke",
+    url: "https://org-office.vercel.app/",
     siteName: "Pivota",
     images: [
       {
-        url: "/background.jpg",
+        url: "https://org-office.vercel.app/_next/image?url=%2Fcollaboration.jpg&w=3840&q=75",
         width: 1200,
         height: 630,
         alt: "Pivota platform dashboard preview",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Pivota — Manage Your Organization Smarter",
     description:
       "Centralize your operations, teams, and communication in one intuitive platform.",
-    images: ["/background.jpg"],
+    images: ["https://org-office.vercel.app/_next/image?url=%2Fcollaboration.jpg&w=3840&q=75"],
     creator: "@pivota_tech",
   },
   icons: {
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   alternates: {
-    canonical: "https://www.pivota.co.ke",
+    canonical: "https://org-office.vercel.app/",
   },
 };
 
