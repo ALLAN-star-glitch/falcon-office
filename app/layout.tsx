@@ -16,52 +16,37 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Pivota — Manage Your Organization Smarter",
-    template: "%s | Pivota",
+    default: "OrgOffice — Manage Your Organization Smarter",
+    template: "%s | OrgOffice",
   },
   description:
-    "Pivota helps organizations centralize operations, communication, and document management — all in one smart platform built for productivity.",
+    "OrgOffice helps organizations centralize operations, communication, and document management — all in one smart platform built for productivity.",
   keywords: [
     "organization management",
     "team collaboration",
     "document management",
     "business automation",
-    "Pivota platform",
+    "OrgOffice platform",
   ],
-  authors: [{ name: "Pivota Team" }],
+  authors: [{ name: "OrgOffice Team" }],
   metadataBase: new URL("https://org-office.vercel.app/"),
   openGraph: {
-    title: "Pivota — Manage Your Organization Smarter",
+    title: "OrgOffice — Manage Your Organization Smarter",
     description:
       "All-in-one platform for managing your organization — streamline operations, communication, and growth effortlessly.",
     url: "https://org-office.vercel.app/",
-    siteName: "Pivota",
+    siteName: "OrgOffice",
     images: [
       {
         url: "https://org-office.vercel.app/_next/image?url=%2Fcollaboration.jpg&w=3840&q=75",
         width: 1200,
         height: 630,
-        alt: "Pivota platform dashboard preview",
+        alt: "OrgOffice platform dashboard preview",
       },
     ],
     locale: "en_KE",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Pivota — Manage Your Organization Smarter",
-    description:
-      "Centralize your operations, teams, and communication in one intuitive platform.",
-    images: ["https://org-office.vercel.app/_next/image?url=%2Fcollaboration.jpg&w=3840&q=75"],
-    creator: "@pivota_tech",
-  },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
-  alternates: {
-    canonical: "https://org-office.vercel.app/",
-  },
+  }
 };
 
 export default function RootLayout({
@@ -77,7 +62,7 @@ export default function RootLayout({
           name="robots"
           content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
         />
-        <meta name="author" content="Pivota Team" />
+        <meta name="author" content="OrgOffice Team" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
