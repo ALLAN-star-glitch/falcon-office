@@ -72,7 +72,7 @@ export default function Header() {
         {/* Desktop Buttons */}
         <div className="hidden md:flex items-center space-x-4">
           <Link
-            href="#login"
+            href="/dashboard/overview"
             className="px-4 py-2 rounded-lg text-white/90 hover:text-white transition"
           >
             Login
@@ -118,7 +118,7 @@ export default function Header() {
 
               <div className="pt-4 flex flex-col space-y-3">
                 <Link
-                  href="#login"
+                  href="/dashboard/overview"
                   onClick={() => setIsOpen(false)}
                   className="text-white/90 hover:text-white transition text-base"
                 >
