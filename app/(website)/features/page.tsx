@@ -69,7 +69,7 @@ export default function FeaturesPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative w-full h-72 md:h-96 rounded-2xl overflow-hidden shadow-lg md:order-last">
               <Image
-                src="/collaboration.jpg"
+                src="/background.jpg"
                 alt="Team collaboration workspace"
                 fill
                 className="object-cover"
