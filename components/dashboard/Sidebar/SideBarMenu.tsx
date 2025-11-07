@@ -37,7 +37,7 @@ export const menuGroups: MenuGroup[] = [
       {
         name: "Overview",
         icon: HomeIcon,
-        href: "/dashboard/overview",
+        href: "/dashboard",
       },
     ],
   },
